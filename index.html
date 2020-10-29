@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function F1(){
+            var ram = '8 GB';
+            var disco = '1 TB';
+            var marca = 'HP NoteBook';
+            var sis = 'Windows 10';
+            alert('Caracteristicas:\n'+ram+'\n'+disco+'\n'+marca+'\n'+sis);
+        }
+        function F2(){
+            var ram = '4 GB';
+            var disco = '500 GB';
+            var marca = 'Intel Celeron';
+            var sis = 'Linux';
+            alert('Caracteristicas:\n'+ram+'\n'+disco+'\n'+marca+'\n'+sis);
+        }
+        function F3(){
+            var ram = '8 GB';
+            var disco = '1 TB';
+            var marca = 'Vorago';
+            var sis = 'Windows 10';
+            alert('Caracteristicas:\n'+ram+'\n'+disco+'\n'+marca+'\n'+sis);
+        }
+        function F4(){
+            var ram = '4 GB';
+            var disco = '1 TB';
+            var marca = 'HP';
+            var sis = 'Windows 10';
+            alert('Caracteristicas:\n'+ram+'\n'+disco+'\n'+marca+'\n'+sis);
+        }
+        function video(){
+            document.location.href="https://www.dropbox.com/s/uu80s5wxzutoghy/MUTE_20201024_044237.mp4?dl=0"; 
+        }
+        function reglamento(){
+            document.location.href="https://www.dropbox.com/s/i195zws7p59dy9r/Politicas%20del%20centro%20de%20computo.docx?dl=0";
+        }
+        function hardware(){
+            document.location.href="https://www.dropbox.com/s/nshdmhr4e3avw3z/P_Hardware.xlsx?dl=0";
+        }
+        function software(){
+            document.location.href="https://www.dropbox.com/s/ahe34u7da2l1a23/P_Software.xlsx?dl=0";
+        }
+    </script>
+    <title>Centro de Computo</title> 
+</head>
+<body>
+        <div id="barra" style="widows: 1000px; height: 60px; background-color: #335577"></div>
+        <br>
+        <legend>Disculpe lo burdo de la pagina la verdad no conocia este software</legend>
+        <br>
+    <fieldset>
+        <legend>Tipo de Computadoras</legend>
+        <img src="imagen_1.jpg" width="150" height="150"/>
+        <input type="button" id="boton" value="Computadora_1" onclick="F1()">
+        <img src="imagen_2.jpg" width="150" height="150"/>
+        <input type="button" id="boton" value="Computadora_2" onclick="F2()">
+        <img src="imagen_3.jpg" width="150" height="150"/>
+        <input type="button" id="boton" value="Computadora_3" onclick="F3()">
+        <img src="imagen_4.jpg" width="150" height="150"/>
+        <input type="button" id="boton" value="Computadora_4" onclick="F4()">
+        <br>
+        <br>
+        <legend>Se usaran para el laboratorio el tipo de Computadora_4</legend>
+    </fieldset>
+    <br>
+    <div id="barra" style="widows: 1000px; height: 20px; background-color: #335577"></div>
+    <br>
+    <fieldset>
+        <legend>Presupuestos</legend>
+        <input type="button" id="b_hardware" value="Enlace a Presupuesto de hardware" onclick="hardware()">
+        <input type="button" id="b_software" value="Enlace a Presupuesto de software" onclick="software()">
+    </fieldset>
+    <br>
+    <div id="barra" style="widows: 1000px; height: 20px; background-color: #335577"></div>
+    <br>
+    <fieldset>
+        <legend> Diagramas </legend>
+        <img src="Lab_2D.jpg" width="300" height="200">
+        <img src="Lab_3D.jpg" width="300" height="200">
+    </fieldset>
+    <br>
+    <div id="barra" style="widows: 1000px; height: 20px; background-color: #335577"></div>
+    <br>
+    <fieldset>
+        <legend>Reglamento</legend>
+        <input type="button" id="b_video" value="Enlace a Reglamento" onclick="reglamento()">
+        
+    </fieldset>
+    <br>
+    <br>
+    <div id="barra" style="widows: 1000px; height: 20px; background-color: #335577"></div>
+    <br>
+    <fieldset>
+        <legend>Video</legend>
+        <input type="button" id="b_video" value="Enlace a video" onclick="video()">
+    </fieldset>
+    <br>
+</body>
+</html>
